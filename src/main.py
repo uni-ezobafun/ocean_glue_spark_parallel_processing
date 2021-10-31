@@ -5,11 +5,11 @@ from glue_spark_test.parallel_processor import process_in_parallel
 from glue_spark_test.non_parallel_processor import process_in_non_parallel
 
 # 分散処理させるか否か
-PARALLEL_PROCESSING = False
+IS_PARALLEL_PROCESSING = False
 
 def main():
     pre_process_data_queue = create_dummy_data_queue()
-    if PARALLEL_PROCESSING:
+    if IS_PARALLEL_PROCESSING:
         process_in_parallel(pre_process_data_queue)
     else:
         process_in_non_parallel(pre_process_data_queue)
