@@ -8,6 +8,7 @@ ITEM_COUNT_IN_A_DUMMY_LIST = 5000
 # 用意するランダム値リストの個数
 DUMMY_LIST_COUNT = 1000
 
+
 def create_dummy_data_queue():
     dummy_data_queue = []
     for i in range(DUMMY_LIST_COUNT):

@@ -1,5 +1,6 @@
 from glue_spark_test.something_heavy_process.util import sort_by_bubble_sort
 
+
 def process_in_non_parallel(pre_process_data_queue):   
     whole_process_count = len(pre_process_data_queue)
 

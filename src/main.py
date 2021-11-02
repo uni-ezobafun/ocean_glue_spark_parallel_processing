@@ -7,6 +7,7 @@ from glue_spark_test.non_parallel_processor import process_in_non_parallel
 # 分散処理させるか否か
 IS_PARALLEL_PROCESSING = False
 
+
 def main():
     pre_process_data_queue = create_dummy_data_queue()
     if IS_PARALLEL_PROCESSING:
