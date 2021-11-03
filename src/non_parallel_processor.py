@@ -5,9 +5,12 @@ from random import randint
 # バブルソートの計算量はこの値の2乗
 ITEM_COUNT_IN_A_DUMMY_LIST = 5000
 
+# 用意するランダム値リストの個数
+DUMMY_LIST_COUNT = 1000
+
 
 def main():
-    pre_process_data_queue = dummy_data_creator.create_dummy_data_queue()
+    pre_process_data_queue = create_dummy_data_queue()
     process_in_non_parallel(pre_process_data_queue)
 
 
