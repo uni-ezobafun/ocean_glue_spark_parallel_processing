@@ -7,7 +7,6 @@ AWS Glueで分散処理させてみるテスト
 ```
 $ git clone https://github.com/uni-ezobafun/ocean_glue_spark_parallel_processing.git
 $ cd ocean_glue_spark_parallel_processing
-$ python3 -m zipapp src -m "main:main"
 ```
 
 ### tutorial
